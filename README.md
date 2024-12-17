@@ -1,4 +1,4 @@
-# Abelian-Sandpile-Web-Demo
-A hand hewn Javascript+Canvas implementation of the Bak-Tang-Weisenfeld model on the square lattice. 
+# Newton-Fractal-Vis
+A hand hewn Javascript+Canvas implementation of the Newton Fractal.
 
-Check out the [simulation](https://djkorchinski.github.io/Abelian-Sandpile-Web-Demo/)!
+Check out the [simulation](https://djkorchinski.github.io/newton-fractal-vis/)!

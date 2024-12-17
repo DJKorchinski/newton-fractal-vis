@@ -19,7 +19,10 @@
 </div>
 
 <p> 
-    No description yet.
+    This is a simulation of the Newton Fractal for the polynomial $z^3-1 = 0$ over the complex plane. 
+    Each point in the plane is coloured by which of the three roots of the polynomial (z = 1, z = e^(±2 i pi / 3)) it converges to under Newton's method. 
+    The Newton step is given by $z_{n+1} = z_n - f(z_n)/f'(z_n)$, where $f(z) = z^3 - 1$ and $f'(z) = 3z^2$. 
+    This polynomial is absolutely convergent, though generically many polynomials are not. Iteration is halted once $|z_{n+1} - z_n| < 10^{-10}$, and the root is identified. 
 </p>
 </div>
 </body>

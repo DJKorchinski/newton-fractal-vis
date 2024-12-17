@@ -82,7 +82,7 @@ function main_loop(timestamp){
     dtSinceLastFrame += dt; 
     // console.log(dt)
     if(dtSinceLastFrame > 0.){ //can reduce frame rate using this. 
-        for (var i = 0; i < 3; i++){ tick(); }
+        for (var i = 0; i < 30; i++){ tick(); if(window.performance.now() - timestamp > 1000/61) break; }
         draw();
         dtSinceLastFrame = 0;
     }

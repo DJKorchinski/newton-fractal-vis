@@ -1,0 +1,11 @@
+TODO: 
+- Add a way to update the render size?
+    - render size?
+    - fullscreen button?
+    - arbitrary grid space resolution (to enable super sampling / subsampling?)
+- add a way to navigate the fractal? (zoom in / out, pan?)
+- Add a pop-up settings panel? 
+- clear page button? 
+- button to hide the description? 
+- add a button to adjust the order of the fractal? Can we input an arbitrary polynomial? 
+- gpu acceleration? (hard to make this compatible with arbitrary polynomials probably, unless we write some clever js -> shader code)
